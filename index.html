@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简介</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- 图标库 -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
-
+    <link rel="stylesheet" href="icon_font/iconfont.css">
 </head>
 <body>
     <div class="body">
@@ -31,24 +30,30 @@
                 <h3 class="minor_text_head">持有证书</h3>
                 <div class="minor_text_text">
                     <ul>
-                        <li>CET四级证书</li>
-                        <li>C1D驾驶证</li>
+                        <a>
+                            <li>CET四级证书</li>
+                        </a>
+                        <a>
+                            <li>C1D驾驶证</li>
+                        </a>
                     </ul>
                 </div>
-                <h3 class="minor_text_head">待扩展</h3>
+                <!-- <h3 class="minor_text_head">待扩展</h3>
                 <div>
 
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- 右边内容 -->
         <div class="main_text">
             <div>
-                <img src="./image/icon1.png" alt="图标1" class="icon">
+                <span class="iconfont icon-jiaoyubeijing icon"></span>
                 <h2 class="main_text_head">教育背景</h2>
                 <hr>
                 <div class="main_text_text">
-                    <p>2023.09-2027.06&nbsp;&nbsp;厦门大学嘉庚学院&nbsp;&nbsp;电气工程及其自动化专业</p>
+                    <p>
+                        2023.09-2027.06&nbsp;&nbsp;厦门大学嘉庚学院&nbsp;&nbsp;电气工程及其自动化专业
+                    </p>
                     <ul>
                         <li>主修课程：单片机、可编程控制器、可编程终端、电力系统分析、
                             电力系统继电保护、电力电子技术、工程制图</li>
@@ -56,10 +61,12 @@
                         <li>专业排行：各学年均位于专业前10%</li>
                     </ul>
                 </div>
-                <img src="./image/score.png" alt="成绩图" class="img_score">
+                <a href="./image/score.png" target="_blank">
+                    <img src="./image/score.png" alt="成绩图" class="img_score">
+                </a>
             </div>
             <div>
-                <img src="./image/icon2.png" alt="图标2" class="icon">
+                <span class="iconfont icon-rongyujiangxiang icon"></span>
                 <h2 class="main_text_head">所获荣誉</h2>
                 <hr>
                 <div class="main_text_text">
@@ -86,32 +93,44 @@
                         <!--  左右按钮  -->
                         <div class="navigator slide-1">
                             <label for="control-3">
-                            <i class="fas fa-chevron-left"></i>
+                            <i class="iconfont icon-qiehuanqizuo"></i>
                             </label>
                             <label for="control-2">
-                            <i class="fas fa-chevron-right"></i>
+                             <i class="iconfont icon-qiehuanqiyou"></i>
                             </label>
                         </div>
                         <div class="navigator slide-2">
                             <label for="control-1">
-                            <i class="fas fa-chevron-left"></i>
+                            <i class="iconfont icon-qiehuanqizuo"></i>
                             </label>
                             <label for="control-3">
-                            <i class="fas fa-chevron-right"></i>
+                            <i class="iconfont icon-qiehuanqiyou"></i>
                             </label>
                         </div>                       
                         <div class="navigator slide-3">
                             <label for="control-2">
-                            <i class="fas fa-chevron-left"></i>
+                            <i class="iconfont icon-qiehuanqizuo"></i>
                             </label>
                             <label for="control-1">
-                            <i class="fas fa-chevron-right"></i>
+                            <i class="iconfont icon-qiehuanqiyou"></i>
                             </label>
                         </div>
                         <!--  图片  -->
-                        <li class="slide"><img src="./image/cret1.jpg" alt="奖状1" class="img_cret"></li>
-                        <li class="slide"><img src="./image/cret2.jpg" alt="奖状2" class="img_cret"></li>
-                        <li class="slide"><img src="./image/cret3.jpg" alt="奖状3" class="img_cret"></li>
+                        <li class="slide">
+                            <a href="./image/cret1.jpg" target="_blank">
+                                <img src="./image/cret1.jpg" alt="奖状1" class="img_cret">
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="./image/cret2.jpg" target="_blank">
+                                <img src="./image/cret2.jpg" alt="奖状2" class="img_cret">
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="./image/cret3.jpg" target="_blank">
+                                <img src="./image/cret3.jpg" alt="奖状3" class="img_cret">
+                            </a>
+                        </li>
                         <!-- 下方小点 -->
                         <div class="controls-visible">
                             <label for="control-1"></label>
@@ -122,32 +141,51 @@
                 </div>
             </div>
             <div>
-                <img src="./image/icon3.png" alt="图标3" class="icon">
+                <span class="iconfont icon-zhangwojineng icon"></span>
                 <h2 class="main_text_head">掌握技能</h2>
                 <hr>
                 <div class="main_text_text">
                     <ul>
-                        <li>熟练使用 CAD、Creo 等设计软件，具备电气绘图与三维建模能力；</li>
-                        <li>熟悉 STM32Cube、Arduino、Keil5 嵌入式开发环境，掌握嵌入式基础开发；</li>
-                        <li>了解 Altium Designer、STEP7、WinCC flexible 等工控与电路设计软件；</li>
-                        <li>掌握 C、C++、Python 编程语言，具备程序设计与调试能力；</li>
-                        <li>掌握 HTML、CSS、JavaScript，可完成基础前端页面制作。</li>
-                        <li>熟练掌握Word、Excel、PowerPoint等办公软件</li>
+                        <li>
+                            熟练使用 CAD、Creo 等设计软件，具备电气绘图与三维建模能力；
+                        </li>
+                        <li>
+                            熟悉 STM32Cube、Arduino、Keil5 嵌入式开发环境，掌握嵌入式基础开发；
+                        </li>
+                        <li>
+                            了解 Altium Designer、STEP7、WinCC flexible 等工控与电路设计软件；
+                        </li>
+                        <li>
+                            掌握 C、C++、Python 编程语言，具备程序设计与调试能力；
+                        </li>
+                        <li>
+                            掌握 HTML、CSS、JavaScript等网页开发语言，可完成基础前端页面制作。
+                        </li>
+                        <li>
+                            熟练掌握Word、Excel、PowerPoint等办公软件
+                        </li>
                     </ul>
                 </div>
             </div>
             <div>
-                <img src="./image/icon4.png" alt="图标4" class="icon">
+                <span class="iconfont icon-xiangmujingyan icon"></span>
                 <h2 class="main_text_head">课设经历</h2>
                 <hr>
                 <div class="main_text_text">
                     <p>
                         3D打印课程设计：独立完成回力小车Creo复刻建模、3D打印组装。通过查阅资料完成模型设计与参数调试，针对首次打印出现的装配失败、装配体无法组装等问题，优化建模尺寸、拆分装配体分步打印，并在Creality Print中调整喷嘴与打印参数，最终顺利完成建模、打印与整体装配，掌握三维建模与3d打印全流程操作。
                     </p>
-                
-                    <div>
-                        <img src="./image/3d1.png" alt="3D打印" class="img_3d">
-                        <!-- 更多图片等待后续css样式后添加 -->
+                    <div class="wrap-3d">
+                        <div class="btn left iconfont icon-qiehuanqizuo"></div>
+                        <div class="btn right iconfont icon-qiehuanqiyou"></div>
+                        <div class="track-3d">
+                            <img src="./image/3d1.png" alt="3D打印">
+                            <img src="./image/3d2.jpg" alt="3D打印">
+                            <img src="./image/3d3.jpg" alt="3D打印">
+                            <img src="./image/3d1.png" alt="3D打印">
+                            <img src="./image/3d2.jpg" alt="3D打印">
+                            <img src="./image/3d3.jpg" alt="3D打印">
+                        </div>
                     </div>
                 </div>
                 <div>

@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5157",
+      "name": "切换器右",
+      "font_class": "qiehuanqiyou",
+      "unicode": "3464",
+      "unicode_decimal": 13412
+    },
+    {
+      "icon_id": "5158",
+      "name": "切换器左",
+      "font_class": "qiehuanqizuo",
+      "unicode": "3465",
+      "unicode_decimal": 13413
+    },
+    {
+      "icon_id": "44692508",
+      "name": "教育背景",
+      "font_class": "jiaoyubeijing",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "44692509",
+      "name": "校园经历",
+      "font_class": "xiaoyuanjingli",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "44692513",
+      "name": "项目经验",
+      "font_class": "xiangmujingyan",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "44692515",
+      "name": "荣誉奖项",
+      "font_class": "rongyujiangxiang",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "44692519",
+      "name": "兴趣爱好",
+      "font_class": "xingquaihao",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "44692520",
+      "name": "管理经验",
+      "font_class": "guanlijingyan",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "44693407",
+      "name": "个人信息",
+      "font_class": "gerenxinxi",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "44693451",
+      "name": "掌握技能",
+      "font_class": "zhangwojineng",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    }
+  ]
+}
